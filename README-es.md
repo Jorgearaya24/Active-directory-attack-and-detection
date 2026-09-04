@@ -168,8 +168,10 @@ Después de aplicar ambas soluciones y volver a ejecutar el ataque, el evento co
 
 El indicador clave de actividad de ataque es **`ticketEncryptionType: 0x17` (RC4)** — los tickets Kerberos legítimos y modernos típicamente negocian AES (`0x12`), mientras que herramientas de ataque como Impacket comúnmente fuerzan el cifrado RC4, más débil, al solicitar tickets de servicio. Este único campo es uno de los indicadores más confiables y de bajo ruido para detectar actividad de Kerberoasting en un entorno de AD.
 
-**Evidencia:** `ataque-kerberoasting-hash-crackeado.png`, `deteccion-4769.png`
+**Evidencia:** 
 
+![Hash Crackeado](images/ataque-kerberoasting-hash-crackeado.png)
+![Detección Evento 4769](images/deteccion-4769.png)
 ---
 
 ## Hallazgos y Lecciones Aprendidas Clave

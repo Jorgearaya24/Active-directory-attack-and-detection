@@ -92,7 +92,10 @@ Al filtrar el módulo **Discover** de Wazuh por el Event ID de Windows `4625` (F
 
 Esto confirma que los intentos de autenticación fallidos contra el Controlador de Dominio son visibles casi en tiempo real mediante el agente de Wazuh desplegado y la auditoría de seguridad por defecto de Windows.
 
-**Evidencia:** `ataque-fuerza-bruta.png`, `deteccion-4625.png`
+**Evidencia:** 
+
+![Ataque Fuerza Bruta](images/ataque-fuerza-bruta.png)
+![Detección Evento 4625](images/deteccion-4625.png)
 
 ---
 

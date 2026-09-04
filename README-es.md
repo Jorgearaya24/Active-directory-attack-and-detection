@@ -92,14 +92,14 @@ Al filtrar el módulo **Discover** de Wazuh por el Event ID de Windows `4625` (F
 
 Esto confirma que los intentos de autenticación fallidos contra el Controlador de Dominio son visibles casi en tiempo real mediante el agente de Wazuh desplegado y la auditoría de seguridad por defecto de Windows.
 
-**Evidencia:** 
+***Evidencia:***
 
 ![Ataque Fuerza Bruta](images/ataque-fuerza-bruta.png)
 ![Detección Evento 4625](images/deteccion-4625.png)
 
 ---
 
-## Ataque 2: Kerberoasting
+### Ataque 2: Kerberoasting
 
 ### Objetivo
 Simular un escenario post-explotación: un atacante con credenciales válidas de bajo privilegio abusa de Kerberos para extraer el hash de contraseña de una cuenta de servicio y crackearlo offline — una técnica muy común en entornos reales de Active Directory que usan indebidamente cuentas de usuario normales como cuentas de servicio.

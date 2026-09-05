@@ -12,7 +12,7 @@
 Laboratorio casero de ciberseguridad (Home SOC) construido para simular un entorno corporativo de Active Directory a pequeña escala, ejecutando técnicas de ataque reales contra él, y validar su detección mediante un SIEM. Desarrollado como proyecto autodirigido para demostrar habilidades prácticas de seguridad sin experiencia profesional previa en el área.
 
 
-### Arquitectura del Laboratorio
+### Arquitectura del Laboratorio 
 
 Todas las máquinas virtuales corren en VirtualBox, conectadas mediante una red Host-Only aislada de internet de la máquina anfitriona.
 

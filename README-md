@@ -16,7 +16,7 @@ Laboratorio casero de ciberseguridad (Home SOC) construido para simular un entor
 
 Todas las máquinas virtuales corren en VirtualBox, conectadas mediante una red Host-Only aislada de internet de la máquina anfitriona.
 
-| Máquina | Rol | Dirección IP | Sistema Operativo |
+| Máquina | Rol | Dirección IP | Sistema Operativo | 
 |---|---|---|---|
 | Kali Linux | Atacante + host del SIEM | 192.168.56.101 | Kali Rolling |
 | AD-SERVER | Controlador de Dominio (`lab.local`) | 192.168.56.102 | Windows Server 2022 |

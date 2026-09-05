@@ -9,7 +9,7 @@
 ### Resumen
 
 
-Laboratorio casero de ciberseguridad (Home SOC) construido para simular un entorno corporativo de Active Directory a pequeña escala, ejecutando técnicas de ataque reales contra él, y validar su detección mediante un SIEM. Desarrollado como proyecto autodirigido para demostrar habilidades prácticas de seguridad sin experiencia profesional previa en el área.
+Laboratorio casero de ciberseguridad (Home SOC) construido para simular un entorno corporativo de Active Directory a pequeña escala, ejecutando técnicas de ataque reales contra él, y validar su detección mediante un SIEM (Wazuh). Desarrollado como proyecto autodirigido para demostrar habilidades prácticas de seguridad sin experiencia profesional previa en el área.
 
 
 ### Arquitectura del Laboratorio 
